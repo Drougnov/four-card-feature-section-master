@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: hsl(0, 0%, 98%);
+  padding-top: 3rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+.head-text {
+  max-width: 42%;
+}
+#reliable {
+  color: hsl(229, 6%, 40%);
+  font-weight: 300;
+}
+#power {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+}
+.head-text p {
+  color: hsl(229, 6%, 55%);
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem;
+}
+.child-card {
+  text-align: left;
+  padding: 1.5rem;
+  max-width: 320px;
+  box-shadow: 0 5px 20px 0 rgba(128, 128, 128, 0.452);
+  border-radius: 0.5rem;
+}
+.sup {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+.tea {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 1.5rem;
+}
+.kar {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+.cal {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+.child-card h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5rem;
+}
+.child-card p {
+  color: hsl(229, 6%, 66%);
+}
+.child-card img {
+  display: block;
+  margin-left: auto;
+  margin-top: 1.5rem;
+}
+@media (max-width: 426px) {
+  .head-text {
+    max-width: 80%;
+  }
+  .head-text h1 {
+    font-size: 1.5rem;
+  }
+  .card {
+    flex-direction: column;
+    margin: 3rem 1rem;
+  }
+}
